@@ -32,8 +32,10 @@ class Car:
         self.model=model
         self.speed=speed
     def accelerate(self):
+        self.speed+=10
         print("Car accelerated!")
     def brake(self):
+        self.speed-=10
         print("Car stopped!")
         
 class LibraryBook:
